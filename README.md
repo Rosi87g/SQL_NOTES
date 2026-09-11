@@ -8,26 +8,41 @@ topic, cleaned up from the original lab scripts.
 Every script in this repo has been executed end-to-end against a real
 MySQL/MariaDB server to confirm it runs without unintended errors.
 
+## 📖 Start Here: Chapter 1 — Understand Data First
+
+Before opening a single `.sql` file, read **Chapter 1 — "Data: The New
+Fuel"** in `docs/SQL_DBMS_Notes.docx`. It has no code because it doesn't
+need any — it covers what data actually is, the difference between data
+and information, and the three types of data (structured, unstructured,
+semi-structured). Every chapter after it — databases, tables, data types,
+constraints — is really just "how we store and manage data," so this
+chapter is the foundation the rest of the repo stands on. Read it first,
+then come back here for the hands-on scripts below.
+
 ## Chapter → Script Map
 
 | Chapter | Topic | Script |
 |---|---|---|
+| 1 | Data: The New Fuel *(read this first — see above)* | 📖 Notes only — `docs/SQL_DBMS_Notes.docx` |
 | 2 | Understanding DBMS, RDBMS and SQL | [`02-dbms-rdbms-and-sql/02_dbms_rdbms_sql_basics.sql`](02-dbms-rdbms-and-sql/02_dbms_rdbms_sql_basics.sql) |
+| 3 | SQL Command Categories (DDL/DML/DQL/DCL/TCL) | 📖 Notes only — `docs/SQL_DBMS_Notes.docx` |
 | 4 | Database, Schema, Table, Row and Column | [`04-database-schema-table-column/04_database_schema_table_demo.sql`](04-database-schema-table-column/04_database_schema_table_demo.sql) |
+| 5 | Installing MySQL Server and Workbench | 📖 Notes only — `docs/SQL_DBMS_Notes.docx` |
 | 6 | SQL Data Types | [`06-sql-data-types/06_sql_data_types_showcase.sql`](06-sql-data-types/06_sql_data_types_showcase.sql) |
 | 7 | Modifying Database Structure | [`07-modifying-database-structure/07_alter_table_operations.sql`](07-modifying-database-structure/07_alter_table_operations.sql) |
 | 8 | Keys and Constraints | [`08-keys-and-constraints/08_keys_and_constraints_demo.sql`](08-keys-and-constraints/08_keys_and_constraints_demo.sql) |
 | 9 | DML: Managing Data (INSERT, UPDATE, DELETE) | [`09-dml-managing-data/09_insert_update_delete_demo.sql`](09-dml-managing-data/09_insert_update_delete_demo.sql) |
 
-> Chapters 1, 3, and 5 (Data Fundamentals, SQL Command Categories, and
-> Installing MySQL) are conceptual / setup chapters with no dedicated
-> practice script.
+> Chapters 1, 3, and 5 are conceptual / setup chapters with no dedicated
+> practice script — Chapter 1 in particular is meant to be read, not coded,
+> so start there before running anything below.
 
 ## How to Run
 
-1. Open **MySQL Workbench** (see Chapter 5 of the notes if it isn't installed yet).
-2. Open any script from the table above and run it top to bottom (⚡ **Execute**).
-3. Each script creates and uses its own database, so scripts are independent
+1. Read **Chapter 1** in the notes first (see above).
+2. Open **MySQL Workbench** (see Chapter 5 of the notes if it isn't installed yet).
+3. Open any script from the table above and run it top to bottom (⚡ **Execute**).
+4. Each script creates and uses its own database, so scripts are independent
    of one another and can be run in any order.
 
 ### A note on Chapter 8
