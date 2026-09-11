@@ -1,6 +1,6 @@
 # SQL & DBMS Notes — Practice Scripts
 
-Companion repository for **`SQL_DBMS_Notes.docx`** (see [`docs/`](docs/)).
+Companion repository for **`SQL_DBMS_Notes.docx`** (see [`docs/`](01=docs/)).
 Each folder below matches one chapter of the notes and contains a single,
 runnable, fully-commented `.sql` file — the best working example for that
 topic, cleaned up from the original lab scripts.
@@ -23,7 +23,7 @@ then come back here for the hands-on scripts below.
 
 | Chapter | Topic | Script |
 |---|---|---|
-| 1 | Data: The New Fuel *(read this first — see above)* | 📖 Notes only — `docs/SQL_DBMS_Notes.docx` |
+| 1 | Data: The New Fuel *(read this first — see above)* | 📖 Notes only — `01 - docs/SQL_DBMS_Notes.docx` |
 | 2 | Understanding DBMS, RDBMS and SQL | [`02-dbms-rdbms-and-sql/02_dbms_rdbms_sql_basics.sql`](02-dbms-rdbms-and-sql/02_dbms_rdbms_sql_basics.sql) |
 | 3 | SQL Command Categories (DDL/DML/DQL/DCL/TCL) | 📖 Notes only — `docs/SQL_DBMS_Notes.docx` |
 | 4 | Database, Schema, Table, Row and Column | [`04-database-schema-table-column/04_database_schema_table_demo.sql`](04-database-schema-table-column/04_database_schema_table_demo.sql) |
