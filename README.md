@@ -67,8 +67,9 @@ not a bug:
 ```
 sql-dbms-notes/
 ├── README.md
-├── docs/
-│   └── SQL_DBMS_Notes.docx        <- the full course notes
+├── 01-docs/
+│   └── SQL_DBMS_Notes.docx
+    └── SQL_DBMS_Notes.md <- the full course notes
 ├── 02-dbms-rdbms-and-sql/
 ├── 04-database-schema-table-column/
 ├── 06-sql-data-types/
